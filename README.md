@@ -71,39 +71,25 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-### Setup
-
-Clone this repository to your desired folder:
-    
- ``` cd my-folder
-  git clone https://github.com/CobbyElsonfx/Awesome-Books-App-ES6.git
-  ```
-
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-A computer or mobile phone
+- An IDE (ex: VS Code)
+- Github account
 
+### Setup
 
-### Install
+Clone this repository to your desired folder:
 
-Install this project with:
-
-Following the SETUP steps
-
-
-### Usage
-
-To run the project, execute the following command:
-
-npm run test .
-
+```sh
+  cd project-folder
+  git clone https://github.com/CobbyElsonfx/Awesome-Books-App-ES6.git
+```
 
 ### Deployment
-
 
 You can deploy this project using:
 
@@ -113,8 +99,6 @@ You can deploy this project using:
 - Go to Settings/Pages
 - Go to branch and change from 'none' to 'main'
 - Click Save
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
