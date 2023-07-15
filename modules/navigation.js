@@ -1,13 +1,13 @@
-export function toggleNavigation() {
+export const toggleNavigation = () => {
   const navigationMenu = document.querySelector('.navItems');
   navigationMenu.classList.toggle('headerNavActive');
-}
+};
 
-export function changeButtonIcon(buttonImage, path) {
+export const changeButtonIcon = (buttonImage, path) => {
   buttonImage.src = path;
-}
+};
 
-export function initializeNavigation() {
+export const initializeNavigation = () => {
   const links = document.querySelectorAll('.navItems a');
   const sectionList = document.querySelectorAll('.content');
 
@@ -54,4 +54,4 @@ export function initializeNavigation() {
     }
     toggleNavigation();
   });
-}
+};
