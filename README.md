@@ -75,11 +75,11 @@
 ### Setup
 
 Clone this repository to your desired folder:
-    ```
-  cd my-folder
-  
+    
+ ``` cd my-folder
   git clone https://github.com/CobbyElsonfx/Awesome-Books-App-ES6.git
   ```
+
 
 ### Prerequisites
 
