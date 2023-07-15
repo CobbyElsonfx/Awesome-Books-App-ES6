@@ -75,11 +75,11 @@
 ### Setup
 
 Clone this repository to your desired folder:
-
+    ```
   cd my-folder
   
-  git clone /.
-  
+  git clone https://github.com/CobbyElsonfx/Awesome-Books-App-ES6.git
+  ```
 
 ### Prerequisites
 
@@ -104,9 +104,16 @@ npm run test .
 
 ### Deployment
 
+
 You can deploy this project using:
 
-Using the link of the code to clone it
+- Go to github.com
+- Create a new repository
+- Add all website files in the new repository
+- Go to Settings/Pages
+- Go to branch and change from 'none' to 'main'
+- Click Save
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -116,9 +123,10 @@ Using the link of the code to clone it
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Francis Andoh**
 
-dzsdasd
+- GitHub: [@CobbyElsonfx](https://github.com/CobbyElsonfx)
+- LinkedIn: [@FrancisAndoh](https://www.linkedin.com/in/francis-andoh-133aa7245/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,7 +175,7 @@ I would like to thank my Coding Partner Feli for helping me do this project
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
