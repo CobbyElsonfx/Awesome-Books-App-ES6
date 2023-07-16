@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Awesome Book Store</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="container-width">
+            <div class="navBrand ">
+                <a href="">BookStore</a>
+            </div>
+            <button type="button" class="hamburger-btn " id="header-button">
+                <img
+                    id="hamburger-image"
+                    class="header-toggle"
+                    src="./assets/icons/button-menu.svg"
+                    alt="Menu icon on the mobile version"
+                  />
+              </button>
+                <ul class="navItems">
+                    <li><a class="navLink" id="linkOne" href="#">List</a></li>
+                    <li><a class="navLink" id="linkTwo" href="#">Add New</a></li>
+                    <li><a class="navLink"   id="linkThree" href="#">Contact</a></li>
+                </ul>
+        </nav> 
+    </header>
+    <div id="dateContainer">
+        <span id="currentDate"></span>
+    </div>
+    <main>
+        <section class="content show" id="sectionOne" >
+            <div class="container-width bookList " >
+                <h1 class="mainTitle">Awesome Book Store</h1>
+                <div class="eachBookDetail">
+                   <ul id="myBookListContainer">
+                         <!--list content  -->
+                   </ul>
+                    <h3 id="noBookInStorage"></h3>
+                </div>
+    
+            </div>
+        </section>
+        <section class="content"  id="sectionTwo">
+            <div class=" formSection  "  >
+                <h2 class="addBookHeader">Add a new Book</h2>
+                <form id="form">
+                    <div>
+                        <label for="title"></label>
+                        <input type="text"  name="title" id="bookTitle" placeholder="title" author="title" required >
+                    </div>
+                    <div>
+                        <label for="author"></label>
+                        <input  type="text" name="author"  placeholder="author" id="bookAuthor" required>
+                    </div>
+                    <div>
+                    <h4 class="formError"></h4>
+                    </div>
+                    <button class="addBookButton" type="submit" id="addButton"> Add Book</button>
+                </form>
+            </div>
+        </section>
+        <section class="content"  id="sectionThree" >
+            <div class="container-width contactSection" >
+                <div class="contactSectionInner">
+                    <h2>Contact information</h2>
+                     <div class="contactDetails">
+                        <h3>Do have any questions or you just want to say "Hello?" You can reach out to us!</h3>
+    
+                        <ul>
+                        <li> Our e-mail: andofrancis9187@gmail.com</li>
+                        <li>Our phone number: +233 558119187</li>
+                        <li>   Our adress: 23, Sefwi Bekwai - Western North Ghana, </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <div class="container-width footerSection ">
+            <h2 class="footerTitle">© All rights reserved, Francis Andoh</h2>
+        </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
